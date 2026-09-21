@@ -45,11 +45,18 @@ if(correctPin===enterPin){
 
 //
 
-let correctUserName='anderson@gmail.com';
-let correctPassword='3251';
+let validUserName='anderson@gmail.com';
+let validPassword='3251';
 let enteredUsername='anderson@gmail.com';
 let enteredPassword='3251';
 
-if(correctUserName !==enteredPassword && correctUserName===enteredUsername){
+if(validUserName===enteredUsername && validPassword===enteredPassword){
     console.log('login successful');
+
+}else if(validUserName !== enteredUsername){
+    console.log('incorrect username');
+}else if(validPassword !== enteredPassword){
+    console.log('incorrect password');
+}else{
+
 }
