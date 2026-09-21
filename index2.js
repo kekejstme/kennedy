@@ -60,3 +60,25 @@ if(validUserName===enteredUsername && validPassword===enteredPassword){
 }else{
 
 }
+//loop
+let numberDisplay=5;
+for(let i=1;i<= numberDisplay;i++){
+    let multNumber=1 *2
+    console.log('number'+i +' * 2 = '+multNumber);
+}
+//switch
+let studentScore="40";
+
+switch(studentScore){
+    case "100":
+        console.log("Excellent!");
+        break;
+    case "50":
+        console.log("Passed");
+        break;
+    case "40":
+        console.log("Average");
+        break;
+    default:
+        console.log("Not valid");
+}
