@@ -22,16 +22,18 @@ if(hasLogin){
 }
 
 //ATM APP
+
 let accountName='Kennedy';
 let correctPin=1234;
-let accountBalance=3000;
+let accountBalance=50000;
 let enterPin=1234;
-let moneyWithdrawl=3000;
+let moneyWithdrawl=2000;
 
 
 
 if(correctPin===enterPin){
-    console.log(`login successful`);
+    console.log(`login successfulyour current Balance${accountBalance}`);
+
     if(accountBalance > moneyWithdrawl){
    let  currentBalance=accountBalance-moneyWithdrawl;
    console.log(`current balance: ${currentBalance}`);
