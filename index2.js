@@ -32,7 +32,7 @@ let moneyWithdrawl=2000;
 
 
 if(correctPin===enterPin){
-    console.log(`login successfulyour current Balance${accountBalance}`);
+    console.log(`login successful + your current Balance${accountBalance}`);
 
     if(accountBalance > moneyWithdrawl){
    let  currentBalance=accountBalance-moneyWithdrawl;
@@ -41,4 +41,15 @@ if(correctPin===enterPin){
 
 }else{
     console.log('incorrect password')
+}
+
+//
+
+let correctUserName='anderson@gmail.com';
+let correctPassword='3251';
+let enteredUsername='anderson@gmail.com';
+let enteredPassword='3251';
+
+if(correctUserName !==enteredPassword && correctUserName===enteredUsername){
+    console.log('login successful');
 }
