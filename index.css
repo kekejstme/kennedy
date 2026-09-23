@@ -7,8 +7,13 @@ body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: #f4f4f4;
+    color: #222;
 }
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background: #222;
     color: white;
     padding: 20px;
@@ -43,6 +48,12 @@ main {
     border-radius: 5px;
 }
 
+#myskills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .project-card {
     border: 1px solid #ddd;
     padding: 15px;
@@ -67,4 +78,23 @@ footer {
         margin: 10px;
         padding: 20px;
     }
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.my-picture{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.my-picture1{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
