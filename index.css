@@ -1,4 +1,29 @@
-h1 {
-    color: blue;
-    font-size: large;
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+
+    max-width: 900px
+    margin: 20px
+    padding: 30
 }
